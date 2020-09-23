@@ -407,7 +407,7 @@
   <project path="system/core" name="MagneFire/android_system_core" remote="github" />
 
 <!--   Asteroid specific repositories -->
-  <project path="bionic" name="AsteroidOS/android_bionic" remote="github" />
+  <project path="bionic" name="MagneFire/android_bionic" remote="github" />
   <project path="frameworks/native" name="AsteroidOS/android_frameworks_native" remote="github" />
   <project path="hardware/qcom/display" name="AsteroidOS/android_hardware_qcom_display" remote="github" />
   <project path="external/droidmedia" name="AsteroidOS/droidmedia" remote="github" revision="android-8.0.0_r36" />
