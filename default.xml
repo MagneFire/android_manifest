@@ -546,4 +546,6 @@
   <project path="hardware/libhardware" name="MagneFire/android_hardware_libhardware" remote="github" />
   <project path="external/droidmedia" name="AsteroidOS/droidmedia" remote="github" revision="master" />
   <project path="libhybris" name="libhybris/libhybris" remote="github" revision="master" />
+
+  <project path="hardware/qcom/msm8x09" name="platform/hardware/qcom/msm8x09" groups="qcom_msm8x09" revision="oreo-mr1-release"/>
 </manifest>
