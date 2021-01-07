@@ -22,7 +22,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -541,6 +540,7 @@
 
   <!-- Asteroid specific repositories -->
 
+  <project path="bionic" name="MagneFire/android_bionic" remote="github" />
   <project path="system/core" name="MagneFire/android_system_core" remote="github" />
   <project path="hardware/qcom/display" name="MagneFire/android_hardware_qcom_display" remote="github" />
   <project path="hardware/libhardware" name="MagneFire/android_hardware_libhardware" remote="github" />
