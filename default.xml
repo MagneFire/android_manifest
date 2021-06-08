@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-8.0.0_r36"
            remote="aosp"
@@ -604,6 +604,6 @@
   <!-- Asteroid specific repositories -->
   <project path="bionic" name="AsteroidOS/android_bionic" remote="github" revision="android-8.0.0_r36" />
   <project path="system/core" name="AsteroidOS/android_system_core" remote="github" revision="android-8.0.0_r36" />
-  <project path="external/droidmedia" name="AsteroidOS/droidmedia" remote="github" revision="android-8.0.0_r36" />
+  <project path="external/droidmedia" name="AsteroidOS/droidmedia" remote="github" revision="master" />
 
 </manifest>
