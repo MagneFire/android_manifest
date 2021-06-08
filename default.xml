@@ -606,4 +606,7 @@
   <project path="system/core" name="AsteroidOS/android_system_core" remote="github" revision="android-8.0.0_r36" />
   <project path="external/droidmedia" name="AsteroidOS/droidmedia" remote="github" revision="master" />
 
+  <!-- Other hybris specific repositories-->>
+  <project path="vendor/qcom/opensource/display-frameworks" name="LineageOS/android_vendor_qcom_opensource_display-frameworks" remote="github" revision="cm-13.0" />
+  <project path="external/selinux_stubs" name="mer-hybris/android_external_selinux_stubs.git" remote="github" revision="master" />
 </manifest>
